@@ -1,5 +1,7 @@
 #!/bin/bash
 
-for i in {1..10000000..1}; do
+counter=1
+
+until [ $counter -gt 10000000 ]; do
     printf "Hello World! "
 done
